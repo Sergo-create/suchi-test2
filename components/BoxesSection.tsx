@@ -78,7 +78,7 @@ export default function BoxesSection({ onOpenAllergens }: BoxesSectionProps) {
                         {createCartItemName(item.size, item.type)}
                       </h4>
                       <p className="mt-2 text-sm text-white/70">
-                        You don't choose the rolls. The Samurai does.
+                        You don&apos;t choose the rolls. The Samurai does.
                       </p>
                       <p className="mt-4 text-xl text-[#D4AF37]">{item.size.price}€</p>
                       <p className="mt-1 text-xs text-white/65">{item.size.contains}</p>
