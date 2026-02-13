@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function ContactSection() {
   return (
-    <section id="contact" className="mx-auto w-full max-w-7xl px-5 pb-16 pt-20 md:px-8">
+    <section id="contact" className="mx-auto w-full max-w-7xl scroll-mt-28 px-5 pb-16 pt-20 md:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -43,7 +43,7 @@ function MysteryBoxCard({ size, price, contains, anchorId, onOpenAllergens }: My
   return (
     <article
       id={anchorId}
-      className="rounded-xl border border-[#D4AF37]/25 bg-gradient-to-b from-white/[0.03] to-transparent p-6"
+      className="scroll-mt-28 rounded-xl border border-[#D4AF37]/25 bg-gradient-to-b from-white/[0.03] to-transparent p-6"
     >
       <div className="mb-5 flex items-center justify-between gap-4">
         <h3 className="font-display text-2xl text-white">{size} Box</h3>

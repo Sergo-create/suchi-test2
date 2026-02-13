@@ -14,7 +14,7 @@ export function RollsSection({ onOpenAllergens }: RollsSectionProps) {
   const { addItem } = useCart();
 
   return (
-    <section id="rolls" className="mx-auto w-full max-w-7xl px-5 py-20 md:px-8">
+    <section id="rolls" className="mx-auto w-full max-w-7xl scroll-mt-28 px-5 py-20 md:px-8">
       <SectionTitle
         eyebrow="Rolls"
         title="30 signature rolls."

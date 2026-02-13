@@ -9,7 +9,7 @@ export function AddOnsSection() {
   const { addItem } = useCart();
 
   return (
-    <section id="add-ons" className="mx-auto w-full max-w-7xl px-5 py-20 md:px-8">
+    <section id="add-ons" className="mx-auto w-full max-w-7xl scroll-mt-28 px-5 py-20 md:px-8">
       <SectionTitle eyebrow="Add-ons" title="Complete the ritual." />
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
